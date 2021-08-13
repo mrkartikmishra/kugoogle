@@ -1,0 +1,54 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home__topbar {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.home__topbar__link {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.home__topbar__link:nth-child(2) {
+    margin-right: 20px;
+}
+
+.home__topbar__link:hover {
+    text-decoration: underline;
+}
+
+.home__topbar__appsIcon {
+    color: #5f6368;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.home__topbar__avatar {
+    font-size: 40px!important;
+    cursor: pointer;
+}
+
+.home__center {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.home__center__logo {
+    width: 272px;
+    height: 92px;
+}

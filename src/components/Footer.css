@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+    width: 100%;
+}
+
+.footer__stackOne__text {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer__stackTwo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.footer__stackTwo__left__ul, .footer__stackTwo__right__ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.footer__stackTwo__left__li, .footer__stackTwo__right__li {
+    color: rgba(0,0,0,.54);
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}

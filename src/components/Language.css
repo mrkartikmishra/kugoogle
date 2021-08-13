@@ -1,0 +1,25 @@
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.language__left {
+    margin-right: 10px;
+}
+
+.language__right > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.language__right > ul > li {
+    margin-right: 10px;
+    color: rgb(0, 0, 238);
+}
+
+.language__right > ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
